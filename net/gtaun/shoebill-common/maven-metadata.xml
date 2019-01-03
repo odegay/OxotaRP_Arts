@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>net.gtaun</groupId>
+  <artifactId>shoebill-common</artifactId>
+  <versioning>
+    <release>2.0-RC</release>
+    <versions>
+      <version>2.0-RC</version>
+    </versions>
+    <lastUpdated>20190103233315</lastUpdated>
+  </versioning>
+</metadata>
