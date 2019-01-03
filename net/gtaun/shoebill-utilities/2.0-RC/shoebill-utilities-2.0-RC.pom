@@ -25,6 +25,16 @@
             <name>GTAUN Local Repository</name>
             <url>file://d:/maven/repo/net/gtaun/</url>
         </repository>
+	    <repository>
+            <id>oxotarp-mvn-repo</id>
+            <url>https://raw.github.com/odegay/OxotaRP_Arts/mvn-repo/</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>        
+    
+
         <repository>
             <id>global-maven-repo</id>
             <name>MavenN Global Repository</name>
