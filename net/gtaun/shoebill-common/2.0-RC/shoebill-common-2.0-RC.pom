@@ -44,11 +44,23 @@
 			<name>Maven Central Repository1</name>
 			<url>http://central.maven.org/maven2/</url>
 		</repository>
-		<repository>
+
+<!--		<repository>
 			<id>gtaun-local-repo1</id>
 			<name>GTAUN Local Repository1</name>
 			<url>${localRep.url}</url>
 		</repository>
+-->        
+
+        <repository>
+            <id>oxotarp-mvn-repo</id>
+            <url>https://raw.github.com/odegay/OxotaRP_Arts/mvn-repo/</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>        
+    
 	</repositories>
 
     <pluginRepositories>
@@ -67,9 +79,9 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/Shoebill/shoebill-common</url>
-        <connection>scm:git:git://github.com/Shoebill/shoebill-common.git</connection>
-        <developerConnection>scm:git:git@github.com:Shoebill/shoebill-common.git</developerConnection>
+        <url>https://github.com/odegay/shoebill-common</url>
+        <connection>scm:git:git://github.com/odegay/shoebill-common.git</connection>
+        <developerConnection>scm:git:git@github.com:odegay/shoebill-common.git</developerConnection>
     </scm>
 
     <developers>
