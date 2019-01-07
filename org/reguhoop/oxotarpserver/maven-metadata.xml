@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.reguhoop</groupId>
+  <artifactId>oxotarpserver</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20190107215940</lastUpdated>
+  </versioning>
+</metadata>
